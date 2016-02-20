@@ -8,4 +8,7 @@ How to install Cabocha on Windows and use in Python
     
 2.  Download CaboCha-0.69.exe and install (Use UTF-8)
 
-    See 
+    See https://taku910.github.io/cabocha/
+    
+3.  Add ...\MeCab\bin and ...\CaboCha\bin to PATH
+4.  
