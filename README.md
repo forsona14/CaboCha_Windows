@@ -17,6 +17,4 @@ How to install Cabocha on Windows and use in Python
     
     For cabocha-config issues ('list index out of range') , see http://qiita.com/mima_ita/items/161cd869648edb30627b
     
-    
-    
-    For VC2008 issue('Unable to find vcvarsall.bat'), run: SET VS90COMNTOOLS=%VS140COMNTOOLS%  (run SET to see current installed VS version)
+    For VC2008 issue('Unable to find vcvarsall.bat'), run: SET VS90COMNTOOLS=%VS140COMNTOOLS%  (run SET to see VS version)
