@@ -16,7 +16,7 @@ How to install Cabocha on Windows and use in Python
     Download Cabocha-0.69.tar.bz2, cd ...\cabocha-0.69\python, run: python setup.py install
     
     For cabocha-config issues ('list index out of range') , see http://qiita.com/mima_ita/items/161cd869648edb30627b . Change the version 0.68 -> 0.69
-    `
+    
     #!/usr/bin/env python
 
     from distutils.core import setup,Extension,os
@@ -38,6 +38,6 @@ How to install Cabocha on Windows and use in Python
                 library_dirs=[r"C:\Program Files (x86)\CaboCha\sdk"],
                 libraries=['libcabocha'])
     ])
-    `
+    
     
     For VC2008 issue('Unable to find vcvarsall.bat'), run: SET VS90COMNTOOLS=%VS140COMNTOOLS% .  You can runSET to see current VSCOMNTOOLS path.
