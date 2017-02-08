@@ -24,4 +24,4 @@ How to install Cabocha on Windows and use in Python
     Donwload Microsoft Visual C++ Compiler for Python 2.7: https://www.microsoft.com/en-us/download/details.aspx?id=44266
     and hardcode Python27\Lib\distutils\msvc9compiler.py: http://www.cnblogs.com/lazyboy/p/4017567.html
 
-For Linux install, also remember to use utf8 charset (See install pages for more details)
+For Linux install, also remember to use utf8 charset in ./configure (See install pages for more details). If fogot to use UTF8 charset, delete the directory and restart from tar -xcf
