@@ -25,3 +25,6 @@ How to install Cabocha on Windows and use in Python
     and hardcode Python27\Lib\distutils\msvc9compiler.py: http://www.cnblogs.com/lazyboy/p/4017567.html
 
 For Linux install, also remember to use utf8 charset: "./configure --with-charset=utf8 --enable-utf8-only"  (See install pages for more details). If fogot to use UTF8 charset, delete the directory and restart from "tar -xzvf"
+
+Some troubleshoots: 
+http://www.52nlp.cn/mecab%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91
