@@ -2,7 +2,7 @@
 How to install Cabocha on Windows and use in Python
 
 
-1.  Download MeCab-0.996.exe and install (Use UTF-8) 
+1.  Download MeCab-0.996.exe and install (Use UTF-8)  (also install mecab-ipadic)
 
     See http://taku910.github.io/mecab/
     
@@ -24,7 +24,14 @@ How to install Cabocha on Windows and use in Python
     Donwload Microsoft Visual C++ Compiler for Python 2.7: https://www.microsoft.com/en-us/download/details.aspx?id=44266
     and hardcode Python27\Lib\distutils\msvc9compiler.py: http://www.cnblogs.com/lazyboy/p/4017567.html
 
-For Linux install, also remember to use utf8 charset: "./configure --with-charset=utf8 --enable-utf8-only"  (See install pages for more details). If fogot to use UTF8 charset, delete the directory and restart from "tar -xzvf"
+# Cabocha_Linux
+1.  Remember to use utf8 charset: "./configure --with-charset=utf8 --enable-utf8-only"
+
+2.  Install CRF++ if necessary: https://taku910.github.io/crfpp/
+
+3.  If any error occurred during installation, delete the directory and restart from "tar -xzvf"/"tar -xjf"
+
+4.  For ubuntu, run "sudo ldconfig" before running mecab/cabocha
 
 Some troubleshoots: 
 http://www.52nlp.cn/mecab%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91
