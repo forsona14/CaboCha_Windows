@@ -1,6 +1,8 @@
 # CaboCha_Windows
 How to install Cabocha on Windows and use in Python
 
+Remember to Use Python 32-bit!!!
+
 
 1.  Download MeCab-0.996.exe and install (Use UTF-8)  (also install mecab-ipadic)
 
